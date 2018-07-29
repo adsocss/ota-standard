@@ -57,5 +57,4 @@ public class TimeUtils {
     		return points.stream().filter(dt -> dt.isAfter(datetime)).findFirst().get();
     	}
     }
-
 }
